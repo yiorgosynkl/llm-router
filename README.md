@@ -4,6 +4,12 @@ The goal of this project is to create an LLM router.
 This first version of the router is able to dynamically route between an inferior and a superior model according to a user prompt. 
 The benefit of the router is that it can select the inferior model, when the prompt is easy enough and thus, without sacrificing accuracy, it can optimise for cost.
 
+## llm router demo
+
+![dokareni_test](./assets/llm-router-demo.gif)
+
+We can see how the routing destination (and the corresponding confidence/probabilities) change as the prompts of the router model get updated.
+
 ## project structure
 
 The code of the repo is structured in the following steps: 
